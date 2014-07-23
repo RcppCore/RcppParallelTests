@@ -61,7 +61,7 @@ NumericMatrix parallelMatrixSqrt(NumericMatrix x) {
 }
 '
 
-test_that( "sum works with Rcpp", {
+test_that( "transform works with Rcpp", {
     Rcpp::sourceCpp( code = code )
        
     m <- matrix(as.numeric(c(1:1000000)), nrow = 1000, ncol = 1000)
@@ -69,7 +69,7 @@ test_that( "sum works with Rcpp", {
     expect_equal(matrixSqrt(m), parallelMatrixSqrt(m))      
 })
 
-test_that( "sum works with Rcpp11", {
+test_that( "transform works with Rcpp11", {
     attributes::sourceCpp( code = code)
     
     m <- matrix(as.numeric(c(1:1000000)), nrow = 1000, ncol = 1000)

@@ -130,7 +130,7 @@ NumericMatrix rcpp_parallel_js_distance(NumericMatrix mat) {
 }
 '
 
-test_that( "sum works with Rcpp", {
+test_that( "distance works with Rcpp", {
     Rcpp::sourceCpp( code = code )
        
     n  = 1000
@@ -143,7 +143,7 @@ test_that( "sum works with Rcpp", {
         )      
 })
 
-test_that( "sum works with Rcpp11", {
+test_that( "distance works with Rcpp11", {
     attributes::sourceCpp( code = code)
     
     n  = 1000
