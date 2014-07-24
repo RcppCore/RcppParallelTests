@@ -1,3 +1,9 @@
+/**
+ * @title Computing an Inner Product with RcppParallel
+ * @author JJ Allaire
+ * @license GPL (>= 2)
+ */
+
 #include <Rcpp.h>
 using namespace Rcpp;
 

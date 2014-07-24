@@ -1,3 +1,9 @@
+/**
+ * @title Transforming a Matrix in Parallel using RcppParallel
+ * @author JJ Allaire
+ * @license GPL (>= 2)
+ */
+ 
 #include <Rcpp.h>
 using namespace Rcpp;
 

@@ -1,3 +1,9 @@
+/**
+ * @title Parallel Distance Matrix Calculation with RcppParallel
+ * @author JJ Allaire and Jim Bullard
+ * @license GPL (>= 2)
+ */
+
 #include <Rcpp.h>
 using namespace Rcpp;
 

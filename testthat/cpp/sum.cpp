@@ -1,3 +1,9 @@
+/**
+ * @title Summing a Vector in Parallel with RcppParallel
+ * @author JJ Allaire
+ * @license GPL (>= 2)
+ */
+ 
 #include <Rcpp.h>
 #include <RcppParallel.h>
 
